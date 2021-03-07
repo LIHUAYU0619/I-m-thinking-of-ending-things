@@ -9,9 +9,28 @@ body{
   padding:0;
 }
 
-.music{
-  position: absolute;
-  margin:50px;
-  /* display: none; */
 
+/* page-2 */
+
+p{
+  text-indent: 2em;
+}
+
+.japan{
+  font-size:0.94em;
+}
+
+.container{
+  position: absolute;
+  width:44%;
+  /* background-color: yellow; */
+  margin:20px 30px 0 100px;
+  font-family: times;
+  font-size:1.2em;
+  color:red;
+}
+
+.pageNumber{
+  font-size:1.2em;
+  color:red;
 }
