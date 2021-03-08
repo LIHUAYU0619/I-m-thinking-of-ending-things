@@ -10,25 +10,51 @@
 </head>
 
 <style>
+
+a{
+  text-decoration: none;
+  cursor:help;
+}
+
   p {
     margin-bottom: 0;
   }
+
+  .blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.blink_me_2 {
+animation: blinker_2 4s linear infinite;
+}
+
+@keyframes blinker_2 {
+50% {
+  opacity: 0;
+}
+}
+
 </style>
+
+
 
 <body>
   <div class="container">
     <p>
       <u>5</u>
       <br>
-      When<span class="japan"> 岸辺露伴</span> turned over here, a piece of paper fell out from the pages.<br><br>
+      When<span class="japan"> 岸辺露伴</span> turned over here, <a href="http://lihuayu.xyz/nightmare" target="_blank" class="paper"><span class="blink_me">a</span> p<span class="blink_me">i</span>e<span class="blink_me">c</span>e <span class="blink_me">o</span>f <span class="blink_me">p</span>a<span class="blink_me">p</span>e<span class="blink_me">r</span></a> fell out from the pages.<br><br>
 
       <p class="mark" style="margin:0;">“All those nightmares…” she thought, “but to be precise, they were just weird dreams.”</p>
       <br>
 
       She likes them more than reality.
-
-
-
     </p>
   </div>
 
