@@ -11,13 +11,21 @@
 
 <style>
 
-a{
+a.paper{
   text-decoration: none;
   cursor:help;
 }
 
+a{
+  cursor:e-resize;
+}
+
   p {
     margin-bottom: 0;
+  }
+
+  a.paper:hover{
+    /* background-color: red; */
   }
 
   .blink_me {
@@ -28,16 +36,6 @@ a{
   50% {
     opacity: 0;
   }
-}
-
-.blink_me_2 {
-animation: blinker_2 4s linear infinite;
-}
-
-@keyframes blinker_2 {
-50% {
-  opacity: 0;
-}
 }
 
 </style>
