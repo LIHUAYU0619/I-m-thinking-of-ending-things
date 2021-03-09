@@ -127,4 +127,9 @@ p{
     width:100%;
   }
 
+  .japan{
+    font-family:serif;
+    /* font-size:2em */
+  }
+
 }
